@@ -3,3 +3,7 @@ const getPokemons = axios.create({
 });
 
 export default getPokemons;
+
+export function getPokemonDetails(div) {
+  return axios.create();
+}
