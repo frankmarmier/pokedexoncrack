@@ -1,4 +1,4 @@
-import getPokemons, { getPokemonDetails } from "./pokemonAPI.js";
+import getPokemons from "./pokemonAPI.js";
 
 let next = null;
 
