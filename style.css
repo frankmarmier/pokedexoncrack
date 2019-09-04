@@ -5,17 +5,22 @@
   scrollbar-width: 0;
 }
 
+body {
+  background: url(./img/pokeballs.png);
+  background-size: 90px;
+}
 .title {
-  height: 140px;
+  height: 220px;
   background: no-repeat;
+  background-size: cover;
   background-image: url(./img/title.png);
-  margin: 0 450px;
 }
 
 .pokemon-showcase {
-  margin: 0 65px;
+  margin: 0 70px;
 }
 .pokemon-showcase {
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
